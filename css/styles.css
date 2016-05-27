@@ -62,11 +62,6 @@ h2 {
 }
 
 /*styling for the carousel*/
-/*.carousel {
-  max-height: 700px;
-  overflow: hidden;
-}*/
-
 .carousel-inner .item img {
     margin: 0 auto;
 }
