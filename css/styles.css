@@ -3,6 +3,7 @@ body {
   text-align: center;
   margin: 0;
   font-family: "Arial Black", Gadget, sans-serif;
+
 }
 
 p {
@@ -21,13 +22,16 @@ div {
   margin: 20px;
 }
 
-img {
+.meaghan {
   width: 50%;
   height: auto
 }
 /* Pseudo-classes ------------------ */
 /* ID Selectors -------------------- */
+
 /* Class Selectors ----------------- */
+
+
 .main-header {
   background-color: #ff1d8e;
   padding-bottom: 15px;
@@ -35,33 +39,16 @@ img {
   color:white;
 }
 
-.left {
+.left, .center, .right {
   float: left;
-  width: 275px;
-  height: 230px;
+  width: 33.1%;
+  height: 200px;
   background-color: #ff1d8e;
   border-radius: 25px;
   color:white;
+  margin:1%
 }
 
-.center {
-  float: left;
-  width: 275px;
-  height: 230px;
-  background-color: #ff1d8e;
-  border-radius: 25px;
-  color:white;
-}
-
-
-.right {
-  float: right;
-  width: 275px;
-  height:230px;
-  background-color:#ff1d8e;
-  border-radius: 25px;
-  color:white;
-}
 
 
 
@@ -72,10 +59,10 @@ img {
   color:white;
 }
 
-.carousel {
+/*.carousel {
   max-height: 700px;
   overflow: hidden;
-}
+}*/
 
 .carousel-inner .item img {
     margin: 0 auto;
