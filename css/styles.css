@@ -8,7 +8,7 @@ body {
 p, ul, ol {
   font-family: "Arial", Gadget, sans-serif;
 
-}
+ß}
 
 
  ul {
@@ -21,6 +21,9 @@ div {
   margin: 20px;
 }
 
+h2 {
+  padding-bottom: 1%;
+}
 .meaghan {
   width: 55%;
   height: auto;
@@ -39,9 +42,10 @@ div {
   height: 200px;
   background-color: #ff1d8e;
   border-radius: 25px;
-  color:white;
-  margin:1%;
+  color: white;
+  margin: 1%;
 }
+
 
 .title {
   color: white;
