@@ -3,37 +3,33 @@ body {
   text-align: center;
   margin: 0;
   font-family: "Arial Black", Gadget, sans-serif;
+  color: white;
 }
-
-p, ul, ol {
-  font-family: "Arial", Gadget, sans-serif;
-
-ß}
-
-
- ul {
-  list-style-type: none;
-}
-
 
 div {
   padding: 30px;
   margin: 20px;
 }
 
+p, ul, ol {
+  font-family: "Arial", Gadget, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol{
+  text-align: left;
+}
+
 h2 {
   padding-bottom: 1%;
 }
+
 .meaghan {
   width: 55%;
   height: auto;
-}
-
-.main-header {
-  background-color: #ff1d8e;
-  padding-bottom: 15px;
-  padding-top: 55px;
-  color:white;
 }
 
 .left, .center, .right {
@@ -42,19 +38,30 @@ h2 {
   height: 200px;
   background-color: #ff1d8e;
   border-radius: 25px;
-  color: white;
   margin: 1%;
 }
 
-
 .title {
-  color: white;
   font-size: 100px;
   font-weight: 900px;
   color:white;
   margin-bottom: 20px;
 }
 
+#footer{
+  background-color: #ff1d8e;
+  margin: 1%;
+  color:white;
+}
+
+#main-header {
+  background-color: #ff1d8e;
+  padding-bottom: 15px;
+  padding-top: 55px;
+  color:white;
+}
+
+/*styling for the carousel*/
 /*.carousel {
   max-height: 700px;
   overflow: hidden;
