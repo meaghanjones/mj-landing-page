@@ -2,30 +2,85 @@
 body {
   text-align: center;
   margin: 0;
-  /*background-color: black;*/
   font-family: "Arial Black", Gadget, sans-serif;
 }
 
+p {
+  font-family: "Arial", Gadget, sans-serif;
 
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
+/*body ol, ul {
+  font-family: "Arial", Gadget, sans-serif;
+  list-style-type: none;
+}*/
+
+
+div {
+  padding: 30px;
+  margin: 20px;
+}
+
+img {
+  width: 50%;
+  height: auto
+}
 /* Pseudo-classes ------------------ */
 /* ID Selectors -------------------- */
 /* Class Selectors ----------------- */
 .main-header {
   background-color: #ff1d8e;
   padding-bottom: 15px;
+  padding-top: 55px;
   color:white;
 }
+
+.left {
+  float: left;
+  width: 275px;
+  height: 230px;
+  background-color: #ff1d8e;
+  border-radius: 25px;
+  color:white;
+}
+
+.center {
+  float: left;
+  width: 275px;
+  height: 230px;
+  background-color: #ff1d8e;
+  border-radius: 25px;
+  color:white;
+}
+
+
+.right {
+  float: right;
+  width: 275px;
+  height:230px;
+  background-color:#ff1d8e;
+  border-radius: 25px;
+  color:white;
+}
+
+
 
 .title {
   color: white;
   font-size: 100px;
   font-weight: 900px;
-  font-family: "Arial Black", Gadget, sans-serif;
+  color:white;
+}
+
+.carousel {
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.carousel-inner .item img {
+    margin: 0 auto;
+}
+
+.carousel-indicators {
+  bottom:0;
 }
