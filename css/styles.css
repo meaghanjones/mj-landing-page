@@ -1,16 +1,26 @@
 /* Type Selectors ------------------ */
 body {
   text-align: center;
-}
-
-h1 {
+  margin: 0;
+  /*background-color: black;*/
   font-family: "Arial Black", Gadget, sans-serif;
 }
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* Pseudo-classes ------------------ */
 /* ID Selectors -------------------- */
 /* Class Selectors ----------------- */
 .main-header {
   background-color: #ff1d8e;
+  padding-bottom: 15px;
+  color:white;
 }
 
 .title {
