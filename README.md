@@ -10,7 +10,7 @@ This website provides the user with information on Meaghan's background, work hi
 
 ## Setup/Installation Requirements
 
-* Open document using web browser
+* Open document using web browser meaghanjones.github.io/mj-landing-page
 * View page
 
 

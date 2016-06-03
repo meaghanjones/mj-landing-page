@@ -2,21 +2,23 @@
 <html>
   <head>
     <title>Meaghan Jones</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </head>
 
 <!-- Nav bar -->
 <body>
   <nav class="navbar" "navbar-default">
     <div class="container-fluid">
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="https://www.linkedin.com/in/meaghanj">LinkedIn</a></li>
-            <li><a href="https://github.com/meaghanjones/">My GitHub</a></li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="https://www.linkedin.com/in/meaghanj">LinkedIn</a></li>
+          <li><a href="https://github.com/meaghanjones/">My GitHub</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 <!-- End Nav bar -->
@@ -27,56 +29,57 @@
   </header>
 <!--End Header -->
 <!--Block of texts about me-->
-  <div>
+  <div class="container">
     <div class="left">
       <h2>Links to my work:</h2>
-        <a href="http://meaghanjones.github.io/things-in-portland/"> Things to do in Portland</a><br>
-        <p>My partner and I created a webiste to let people know activites around Portland. In this project we used <em><span class="special">css</span></em> and <em><span class="special">html</span></em>.</p>
-        <a href="http://meaghanjones.github.io/cookie-recipe/"> Cupcake shop</a>
-        <p>With another partner I created a website for a ficitious cupcake shop. In this project we used <em><span class="special">css</span></em> and <em><span class="special">html</span></em>.</p>
+      <a href="http://meaghanjones.github.io/things-in-portland/"> Things to do in Portland</a><br>
+      <p>My partner and I created a webiste to let people know activites around Portland. In this project we used <em><span class="special">css</span></em> and <em><span class="special">html</span></em>.</p>
+      <a href="http://meaghanjones.github.io/cookie-recipe/"> Cupcake shop</a>
+      <p>With another partner I created a website for a ficitious cupcake shop. In this project we used <em><span class="special">css</span></em> and <em><span class="special">html</span></em>.</p>
     </div>
     <div class="center">
       <h2>What I have learned:</h2>
-        <ul>
-          <li>HTML</li>
-          <li>css</li>
-          <li>bootstrap</li>
-        </ul>
+      <ul>
+        <li>HTML</li>
+        <li>css</li>
+        <li>bootstrap</li>
+      </ul>
     </div>
-  </div>
+
   <div>
     <div class="right">
       <h2>Interests:</h2>
-        <ol>
-          <li>Learning Portuguese</li>
-          <li>Enviornmental Risks</li>
-          <li>Riding my bike</li>
-          </ol>
+      <ol>
+        <li>Learning Portuguese</li>
+        <li>Enviornmental Risks</li>
+        <li>Riding my bike</li>
+      </ol>
     </div>
   </div>
     <div>
       <div class="right">
         <h2>Why code school?</h2>
-          <p>I am currently working to transistion into a career in the tech feild. I have chosen to <strong>think outside box</strong> to pivot my career by going to code school at epicodus.</p>
+        <p>I am currently working to transistion into a career in the tech feild. I have chosen to <strong>think outside box</strong> to pivot my career by going to code school at epicodus.</p>
       </div>
     </div>
     <div>
       <div class="right">
         <h2>Previous Jobs:</h2>
-          <ul>
-            <li>English Teacher in Brazil, Chile, and Switzerland</li>
-            <li>Proofreader for Phd and master students globally</li>
-            <li>Writer and Editer</li>
-          </ul>
+        <ul>
+          <li>English Teacher in Brazil, Chile, and Switzerland</li>
+          <li>Proofreader for Phd and master students globally</li>
+          <li>Writer and Editer</li>
+        </ul>
           <button><a href="meaghan-jones-CV.pdf" class="button">Download CV</a></button>
       </div>
     </div>
     <div>
       <div class="right">
         <h2>My future</h2>
-          <p>In five months, when I am done at epicodus, I hope to find a job at a dynamic comapny where I can contribute with my web developing skills and the soft skills (like interpersonal communication and leadership) I have gained in many years of working in an international enviornment.</p>
+        <p>In five months, when I am done at epicodus, I hope to find a job at a dynamic comapny where I can contribute with my web developing skills and the soft skills (like interpersonal communication and leadership) I have gained in many years of working in an international enviornment.</p>
       </div>
     </div>
+  </div>
 <!--End of block of texts about me-->
 <!-- Carousel -->
    <div id="myCarousel" class="carousel slide jumbotron">
@@ -88,16 +91,16 @@
         </ol>
         <div class="carousel-inner">
           <div class="item active">
-            <img class=meaghan src="img/mjpic.jpg" alt="A picture of Meaghan" />
+            <img src="img/mjpic.jpg" class="meaghan" alt="A picture of Meaghan">
           </div>
         <div class="item">
-            <img src="img/code.jpg" alt="A picture of a code" />
-          </div>
-          <div class="item">
-            <img src="img/epicodus.jpeg" alt="A picture of epicodus code school" />
+          <img src="img/code.jpg" alt="A picture of a code">
+        </div>
+        <div class="item">
+          <img src="img/epicodus.jpeg" alt="A picture of epicodus code school">
           </div>
         </div>
-      </div>
+
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="icon-prev"></span>
       </a>
@@ -105,14 +108,12 @@
         <span class="icon-next"></span>
       </a>
     </div>
+  </div>
 <!--end mycarousel-->
 <!--footer-->
     <div id="footer">
       <p>&copy; 2016</p>
     </div>
-<!--end of footer-->
-      <script src="http:code.jquery.com/jquery.js"></script>
-      <script src="js/bootstrap.min.js"></script>
     </body>
 
 </html>

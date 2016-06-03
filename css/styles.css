@@ -1,14 +1,18 @@
 /* Type Selectors ------------------ */
 body {
   text-align: center;
-  margin: 0;
+  /*margin: 0;*/
   font-family: "Arial Black", Gadget, sans-serif;
   color: white;
 }
-
+/*
 div {
   padding: 30px;
   margin: 20px;
+}*/
+
+img {
+  width: 300px;
 }
 
 p, ul, ol {
@@ -27,15 +31,15 @@ h2 {
   padding-bottom: 1%;
 }
 
-.meaghan {
+/*.meaghan {
   width: 55%;
   height: auto;
-}
+}*/
 
 .left, .center, .right {
   float: left;
-  width: 33.1%;
-  height: 200px;
+  width: 35.1%;
+  height: 250px;
   background-color: #ff1d8e;
   border-radius: 25px;
   margin: 1%;
